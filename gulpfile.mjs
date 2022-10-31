@@ -20,6 +20,7 @@ gulp.task('watchFiles', function() {
   gulp.watch('./src/sass/**/*.scss', gulp.series('styles'));
   gulp.watch('./src/**/*.html', gulp.series('html'));
   gulp.watch('./src/img/**/*', gulp.series('img'));
+  gulp.watch('./src/js/**/*.js', gulp.series('scripts'));
 });
 
 
